@@ -4,32 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psicóloga Évelly Maria</title>
-    <link rel="shortcut icon" href="b.png" />
+    <link rel="shortcut icon" href="f.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Importando a fonte Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;600&family=Poppins:wght@300;400;600&display=swap');
+        
         body {
-            font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
+            font-family: "Lora", serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #fce4ec, #f8bbd0);
+            background: linear-gradient(to right, #F7EDE2, #F5CAC3);
             text-align: center;
             overflow-x: hidden;
         }
-        .banner {
-            width: 100%;
-            height: 250px;
-            background: url('fot.jpeg') center/cover no-repeat;
-            position: relative;
-        }
         .container {
-            max-width: 600px;
-            margin: -50px auto 50px;
+            max-width: 750px;
+            margin: 50px auto;
             background: #fff;
-            padding: 20px;
+            padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             animation: fadeIn 1.5s ease-in-out;
         }
         @keyframes fadeIn {
@@ -37,83 +31,74 @@
             to { opacity: 1; transform: translateY(0); }
         }
         .profile-img {
-            width: 120px;
-            height: 120px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
-            border: 4px solid #f06292;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -60px;
-            animation: bounce 1.5s infinite alternate;
-        }
-        @keyframes bounce {
-            from { transform: translateX(-50%) translateY(0); }
-            to { transform: translateX(-50%) translateY(-10px); }
+            border: 4px solid #d48b88;
         }
         h1 {
-            color: #880e4f;
-            margin-top: 80px;
-            font-family: 'Poppins', sans-serif; /* Aplicando a mesma fonte para o título */
+            font-family: "Playfair Display", serif;
+            color: #6a1b9a;
+            font-size: 32px;
+            margin-top: 25px;
+            margin-bottom: 50px;
+        }
+        h2{
+            font-size: 20px;
+            margin-bottom: 40px;
         }
         p {
-            color: #6a1b9a;
             font-size: 18px;
             margin: 10px 0;
-            font-family: 'Poppins', sans-serif; /* Fonte para o texto */
+            color: #4a148c;
         }
         .buttons a {
             display: block;
-            margin: 10px auto;
+            
+            margin: 55px auto;
             padding: 15px;
-            width: 80%;
-            background: #f8bbd0;
-            color: #4a148c;
+            width: 50%;
+            background: #d48b88;
+            color: white;
             text-decoration: none;
-            font-size: 18px;
-            border-radius: 10px;
-            transition: 0.3s;
-            animation: slideIn 1s ease-in-out;
-            font-family: 'Poppins', sans-serif; /* Fonte para os botões */
+            font-size: 19px;
+            border-radius: 20px;
+            transition: 0.5s;
         }
         .buttons a:hover {
-            background: #f06292;
+            background: #f1908d;
             transform: scale(1.1);
         }
-        @keyframes slideIn {
-            from { transform: translateY(20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
         .social-icons {
-            margin-top: 15px;
+            margin-top: 50px;
         }
         .social-icons a {
-            margin: 0 10px;
-            color: #d81b60;
-            font-size: 25px;
+            margin: 0 12px;
+            color: #d48b88;
+            font-size: 30px;
             transition: 0.3s;
+            
         }
         .social-icons a:hover {
-            color: #880e4f;
+            color: #6a1b9a;
             transform: scale(1.2);
         }
     </style>
 </head>
 <body>
-    <div class="banner">
-        <img href="https://wa.me/559388051785" src="b.png" alt="Psicóloga Évelly Maria" class="profile-img">
-    </div>
     <div class="container">
+        <img src="b.png" alt="Psicóloga Évelly Maria" class="profile-img">
         <h1>Évelly Maria</h1>
-        <p>Psicóloga & Neuropsicopedagoga</p>
-        <p>CRP 10/08430</p>
+        <p>💆‍♀️ Psicóloga & Neuropsicopedagoga 🧠✨</p>
+        <p>📜 CRP 10/08430</p>
         
         <div class="buttons">
-            <a href="https://wa.me/559388051785">Agendar Consulta</a>
-            <a href="sobre.html">Saiba Mais</a>
+            <a href="https://wa.me/559388051785">🗓 Agendar Consulta</a>
+            <a href="sobre.html">ℹ️ Saiba Mais</a>
         </div>
         
         <div class="social-icons">
+            <h2>📧 Contato</h2>
             <a href="https://www.instagram.com/psievellymaria_?igsh=MWJnamkydHFzeHR4bg=="><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="https://wa.me/559388051785"><i class="fab fa-whatsapp"></i></a>
